@@ -54,7 +54,7 @@ EUTicketWiki provides essential information about European railway systems, tick
 
 4. **Open your browser**
    ```
-   http://localhost:3000
+   http://localhost:5000
    ```
 
 The app will hot-reload when you make changes to the source files.
@@ -67,7 +67,7 @@ Run the development server in a Docker container with hot-reload:
 docker-compose --profile dev up
 ```
 
-Access the app at `http://localhost:3000`
+Access the app at `http://localhost:5000`
 
 To stop:
 ```bash

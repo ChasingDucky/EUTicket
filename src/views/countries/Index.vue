@@ -98,7 +98,7 @@ const countries = [
     name: 'Netherlands',
     description: 'Efficient rail network connecting Amsterdam, Rotterdam, The Hague, and beyond.',
     operator: 'NS (Nederlandse Spoorwegen)',
-    link: null
+    link: 'netherlands'
   },
   {
     code: 'AT',
