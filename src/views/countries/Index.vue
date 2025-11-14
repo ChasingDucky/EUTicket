@@ -66,7 +66,7 @@ const countries = [
     name: 'Italy',
     description: 'Scenic routes with Frecciarossa high-speed trains connecting Rome, Milan, Venice, and Naples.',
     operator: 'Trenitalia, Italo',
-    link: null
+    link: 'italy'
   },
   {
     code: 'ES',

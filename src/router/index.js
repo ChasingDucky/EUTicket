@@ -24,6 +24,11 @@ const router = createRouter({
       component: () => import('../views/countries/Germany.vue')
     },
     {
+      path: '/countries/italy',
+      name: 'countries-italy',
+      component: () => import('../views/countries/Italy.vue')
+    },
+    {
       path: '/tickets',
       name: 'tickets',
       component: () => import('../views/tickets/Index.vue')
