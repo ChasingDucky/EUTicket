@@ -1,0 +1,447 @@
+<template>
+  <div class="main-content">
+    <!-- Breadcrumb Navigation -->
+    <div class="breadcrumb">
+      <router-link to="/">Home</router-link> / Travel Tips
+    </div>
+
+    <!-- Introduction Section -->
+    <section>
+      <h2>Essential European Train Travel Tips</h2>
+      <p>Make the most of your European rail adventure with these practical tips and insider knowledge.</p>
+    </section>
+
+    <!-- Before You Travel -->
+    <section>
+      <h2>Before You Travel</h2>
+      <div class="content-page">
+        <h3>📅 Planning Your Journey</h3>
+        <ul>
+          <li><strong>Book 60-90 days in advance</strong> for best prices on high-speed trains</li>
+          <li><strong>Be flexible with dates:</strong> Travel Tuesday-Thursday for cheaper fares</li>
+          <li><strong>Check rail operator strike schedules</strong> (especially in France and Italy)</li>
+          <li><strong>Download offline maps</strong> of major stations (Google Maps, Citymapper)</li>
+          <li><strong>Screenshot tickets and reservations</strong> in case of connectivity issues</li>
+        </ul>
+
+        <h3>💰 Money-Saving Strategies</h3>
+        <div class="info-box tip">
+          <h4>Top 10 Ways to Save Money</h4>
+          <ol>
+            <li><strong>Book early:</strong> Advance tickets can be 70% cheaper</li>
+            <li><strong>Night trains:</strong> Save on accommodation (sleeper from €29)</li>
+            <li><strong>Split tickets:</strong> Sometimes cheaper to book separate tickets for long journeys</li>
+            <li><strong>Regional trains:</strong> Slower but often much cheaper</li>
+            <li><strong>Youth cards:</strong> Under 27? Get national youth cards (e.g., Carte Jeune in France)</li>
+            <li><strong>Pack food:</strong> Station food is expensive; bring snacks and water</li>
+            <li><strong>City day passes:</strong> Include local trains for exploring regions</li>
+            <li><strong>Germany's €49 ticket:</strong> Unlimited regional travel for €49/month</li>
+            <li><strong>Avoid Friday/Sunday travel:</strong> Peak times = higher prices</li>
+            <li><strong>Compare booking sites:</strong> Prices can vary; check official sites too</li>
+          </ol>
+        </div>
+
+        <h3>🎒 What to Pack</h3>
+        <ul>
+          <li><strong>Power bank:</strong> Not all trains have working outlets</li>
+          <li><strong>Universal adapter:</strong> Different plugs across Europe</li>
+          <li><strong>Headphones:</strong> For music/entertainment</li>
+          <li><strong>Eye mask & earplugs:</strong> For night trains</li>
+          <li><strong>Snacks & water bottle:</strong> Cafeteria can be expensive</li>
+          <li><strong>Light jacket:</strong> AC can be cold even in summer</li>
+          <li><strong>Pen:</strong> For customs forms on international routes</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- At the Station -->
+    <section>
+      <h2>At the Station</h2>
+      <div class="content-page">
+        <h3>⏰ Arrival Time</h3>
+        <ul>
+          <li><strong>High-speed/International trains:</strong> Arrive 30 minutes early</li>
+          <li><strong>Regional trains:</strong> 10-15 minutes is usually fine</li>
+          <li><strong>First time at station:</strong> Add extra 15 minutes to find your way</li>
+          <li><strong>Eurostar:</strong> Arrive 45-60 minutes early (passport control)</li>
+        </ul>
+
+        <h3>🔍 Finding Your Platform</h3>
+        <ul>
+          <li>Platform numbers often announced 10-20 minutes before departure</li>
+          <li>Check departure boards (Departures/Départs/Abfahrt)</li>
+          <li>Look for train number, not just destination</li>
+          <li>Some stations have different sections (Paris has separate train halls)</li>
+          <li>Download station maps beforehand for large stations</li>
+        </ul>
+
+        <h3>🎫 Ticket Validation</h3>
+        <div class="info-box warning">
+          <h4>⚠️ When to Validate Tickets</h4>
+          <p><strong>You MUST validate:</strong></p>
+          <ul>
+            <li>Regional trains in France (yellow machines)</li>
+            <li>Regional trains in Italy (green/yellow machines)</li>
+            <li>Some regional trains in Spain</li>
+          </ul>
+          <p><strong>NO validation needed:</strong></p>
+          <ul>
+            <li>Tickets for specific trains (TGV, ICE, etc.)</li>
+            <li>E-tickets on your phone</li>
+            <li>Rail passes (but show them when asked)</li>
+            <li>German trains (no validation system)</li>
+          </ul>
+        </div>
+
+        <h3>🚻 Station Facilities</h3>
+        <ul>
+          <li><strong>Toilets:</strong> Usually €0.50-1.00 (keep coins!)</li>
+          <li><strong>Luggage storage:</strong> €5-10 per day at major stations</li>
+          <li><strong>WiFi:</strong> Free at most major stations</li>
+          <li><strong>ATMs:</strong> Available but may charge fees</li>
+          <li><strong>Water fountains:</strong> Increasingly common in major stations</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- On the Train -->
+    <section>
+      <h2>On the Train</h2>
+      <div class="content-page">
+        <h3>🪑 Finding Your Seat</h3>
+        <ul>
+          <li>Carriage numbers displayed on platform indicators</li>
+          <li>1st class usually carriages 1-10, 2nd class 20-30</li>
+          <li>Electronic displays on carriages show reserved seats</li>
+          <li>Red/white cards above seats indicate reservations</li>
+          <li>If no reservation, sit in seats marked "Available" or blank</li>
+        </ul>
+
+        <h3>🧳 Luggage</h3>
+        <ul>
+          <li><strong>Large bags:</strong> Racks at carriage ends or above seats</li>
+          <li><strong>Weight limits:</strong> None on most trains (except OUIGO, Ryanair trains)</li>
+          <li><strong>Number of bags:</strong> Usually unlimited (be reasonable!)</li>
+          <li><strong>Special items:</strong> Bikes need reservation (€10-15), folding bikes usually free</li>
+          <li><strong>Security:</strong> Keep valuables with you, not in overhead racks</li>
+        </ul>
+
+        <div class="info-box tip">
+          <h4>💡 Luggage Tip</h4>
+          <p>On busy trains, luggage space fills quickly. Board early or keep a small bag with you and store large bags at the carriage end. Don't leave valuables unattended.</p>
+        </div>
+
+        <h3>🍽️ Food & Drink</h3>
+        <ul>
+          <li><strong>Bring your own:</strong> Allowed on all trains</li>
+          <li><strong>Bistro/Restaurant cars:</strong> Available on long-distance trains</li>
+          <li><strong>Prices:</strong> Expect to pay 2-3x normal prices</li>
+          <li><strong>Quality:</strong> Varies; German ICE bistros generally good</li>
+          <li><strong>Alcohol:</strong> Allowed and often sold on board</li>
+        </ul>
+
+        <h3>📱 Staying Connected</h3>
+        <ul>
+          <li><strong>WiFi:</strong> Free on most high-speed trains (quality varies)</li>
+          <li><strong>Power outlets:</strong> Usually at seats (1st class) or between seats (2nd class)</li>
+          <li><strong>Mobile signal:</strong> Generally good except in tunnels/mountains</li>
+          <li><strong>EU roaming:</strong> Use your phone data across EU countries</li>
+        </ul>
+
+        <h3>🤫 Quiet Zones</h3>
+        <ul>
+          <li>Many trains have designated quiet carriages</li>
+          <li>No phone calls or loud conversations</li>
+          <li>Usually marked with 🤫 or "Quiet Zone" signs</li>
+          <li>Perfect for working or resting</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Connections & Transfers -->
+    <section>
+      <h2>Connections & Transfers</h2>
+      <div class="content-page">
+        <h3>⏱️ Connection Times</h3>
+        <ul>
+          <li><strong>Same station, same level:</strong> 5-10 minutes minimum</li>
+          <li><strong>Large stations (Paris, Munich):</strong> 15-20 minutes minimum</li>
+          <li><strong>Station changes:</strong> 30-60 minutes (check metro/taxi time)</li>
+          <li><strong>International borders:</strong> Add 10 minutes for customs</li>
+        </ul>
+
+        <div class="info-box warning">
+          <h4>⚠️ Missed Connections</h4>
+          <ul>
+            <li><strong>Single ticket:</strong> Operator must rebook you on next available train</li>
+            <li><strong>Separate tickets:</strong> You're responsible; buy new ticket</li>
+            <li><strong>Rail pass:</strong> Just hop on next train (if no reservation needed)</li>
+            <li><strong>Tip:</strong> Book connections through one operator when possible</li>
+          </ul>
+        </div>
+
+        <h3>🔄 Changing Stations</h3>
+        <p>Some cities require station changes for certain routes:</p>
+        <ul>
+          <li><strong>Paris:</strong> 7 major stations; 30-60 min between them</li>
+          <li><strong>London:</strong> Multiple stations; Eurostar at St Pancras</li>
+          <li><strong>Brussels:</strong> Midi/Zuid for Eurostar, Central for other trains</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Safety & Security -->
+    <section>
+      <h2>Safety & Security</h2>
+      <div class="content-page">
+        <h3>🔒 Safety Tips</h3>
+        <ul>
+          <li>Keep valuables in sight or in secure bag</li>
+          <li>Be aware of pickpockets at busy stations</li>
+          <li>Lock luggage when leaving seat (especially night trains)</li>
+          <li>Don't leave bags unattended</li>
+          <li>Keep passport and tickets on your person</li>
+          <li>Take photo of luggage tag in case bags get lost</li>
+        </ul>
+
+        <h3>🚨 Emergencies</h3>
+        <ul>
+          <li>Emergency brake in every carriage (only for real emergencies!)</li>
+          <li>Train staff speak English on international routes</li>
+          <li>Emergency number: 112 (works across Europe)</li>
+          <li>Rail operator apps show live train location</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Cultural Tips -->
+    <section>
+      <h2>Cultural Tips</h2>
+      <div class="content-page">
+        <h3>🌍 Local Customs</h3>
+        <ul>
+          <li><strong>Greetings:</strong> Say hello when sitting next to someone (Germany, Austria)</li>
+          <li><strong>Phone calls:</strong> Keep brief and quiet, or use quiet carriage</li>
+          <li><strong>Shoes off:</strong> Not expected, but okay on night trains</li>
+          <li><strong>Reserved seats:</strong> Honor them; people will ask you to move</li>
+          <li><strong>Tipping:</strong> Not expected for train staff</li>
+        </ul>
+
+        <h3>🗣️ Language</h3>
+        <ul>
+          <li>Staff at major stations usually speak English</li>
+          <li>Learn basic phrases: "Where is...?", "Thank you", "Platform"</li>
+          <li>Google Translate app works offline if you download languages</li>
+          <li>Train announcements usually in local language + English on international routes</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- First-Time Traveler Checklist -->
+    <section>
+      <h2>First-Time Traveler Checklist</h2>
+      <div class="info-box">
+        <h4>✅ Before Departure</h4>
+        <ul>
+          <li>☐ Book tickets 60-90 days in advance</li>
+          <li>☐ Check passport validity (6 months for some countries)</li>
+          <li>☐ Download rail operator apps</li>
+          <li>☐ Screenshot tickets and reservations</li>
+          <li>☐ Check station locations and transfer times</li>
+          <li>☐ Note emergency contact numbers</li>
+          <li>☐ Get travel insurance</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h4>✅ At Station</h4>
+        <ul>
+          <li>☐ Arrive 20-30 minutes early</li>
+          <li>☐ Validate ticket if required</li>
+          <li>☐ Check departure board for platform</li>
+          <li>☐ Find correct carriage position on platform</li>
+          <li>☐ Have ticket ready for inspection</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h4>✅ On Train</h4>
+        <ul>
+          <li>☐ Store large luggage in racks</li>
+          <li>☐ Keep ticket accessible</li>
+          <li>☐ Note your stop and arrival time</li>
+          <li>☐ Keep valuables with you</li>
+          <li>☐ Enjoy the journey! 🚆</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script setup>
+// No reactive data needed for this view
+</script>
+
+<style scoped>
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.breadcrumb {
+  margin-bottom: 2rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.breadcrumb a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 0.5rem;
+}
+
+section p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.content-page {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.content-page h3 {
+  color: #333;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-page h3:first-child {
+  margin-top: 0;
+}
+
+.content-page p {
+  color: #666;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.content-page ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.content-page li {
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+}
+
+.content-page ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.content-page ol li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.info-box {
+  background: #e8f4f8;
+  border-left: 4px solid #0066cc;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+}
+
+.info-box.tip {
+  background: #f0f8e8;
+  border-left-color: #66cc00;
+}
+
+.info-box.warning {
+  background: #fff4e8;
+  border-left-color: #ff9900;
+}
+
+.info-box h4 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.info-box p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.info-box ul {
+  margin-left: 1.5rem;
+  color: #666;
+}
+
+.info-box li {
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+}
+
+.info-box ol {
+  margin-left: 1.5rem;
+  color: #666;
+}
+
+.info-box ol li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th {
+  background-color: #0066cc;
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+table td {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  color: #666;
+}
+
+table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+</style>

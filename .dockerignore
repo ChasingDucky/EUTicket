@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build output
+dist
+.vite
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (old HTML)
+index.html
+pages
+css
+
+# Docker
+Dockerfile
+Dockerfile.dev
+docker-compose.yml
+.dockerignore
+
+# Misc
+README.md
+.env
+.env.local
+.env.*.local
+*.md
