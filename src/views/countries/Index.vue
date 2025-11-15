@@ -138,7 +138,7 @@ const countries = [
     name: 'Sweden',
     description: 'Efficient Scandinavian rail network with modern trains and beautiful northern landscapes.',
     operator: 'SJ (Statens Järnvägar)',
-    link: null
+    link: 'sweden'
   }
 ]
 </script>
