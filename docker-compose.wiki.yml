@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database for Wiki.js
+  db:
+    image: postgres:15-alpine
+    container_name: euticketwiki-postgres
+    environment:
+      POSTGRES_DB: wikijs
+      POSTGRES_USER: wikijs
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-wikijspassword}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    restart: unless-stopped
+    networks:
+      - wikijs-network
+    healthcheck:
+      test: ["CMD-EXEC", "pg_isready -U wikijs"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Wiki.js Application
+  wiki:
+    image: ghcr.io/requarks/wiki:2
+    container_name: euticketwiki-app
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_TYPE: postgres
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: wikijs
+      DB_PASS: ${DB_PASSWORD:-wikijspassword}
+      DB_NAME: wikijs
+      # IMPORTANT: Change this to a random string for production!
+      # Generate with: openssl rand -base64 32
+      HA_ACTIVE: 'false'
+    ports:
+      - "3000:3000"
+    volumes:
+      # Wiki.js data (uploads, cache, etc.)
+      - wiki-data:/wiki/data
+      # Wiki.js content (Git repository)
+      - wiki-repo:/wiki/repo
+    restart: unless-stopped
+    networks:
+      - wikijs-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  postgres-data:
+    driver: local
+  wiki-data:
+    driver: local
+  wiki-repo:
+    driver: local
+
+networks:
+  wikijs-network:
+    driver: bridge

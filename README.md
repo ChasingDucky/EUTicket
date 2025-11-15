@@ -2,7 +2,42 @@
 
 A comprehensive wiki-style guide for English-speaking tourists traveling by train across Europe.
 
-Built with **Vue.js 3**, **Vite**, and **Docker** for modern, fast, and scalable deployment.
+## 🚀 Two Deployment Options
+
+### Option 1: Wiki.js (Recommended for Multi-User Collaboration) ⭐
+
+**Modern collaborative wiki with multi-user editing, version control, and rich features.**
+
+- ✅ **Multi-user editing** with real-time collaboration
+- ✅ **User authentication & permissions** (admin, editor, viewer roles)
+- ✅ **Git integration** for automatic version control
+- ✅ **Rich Markdown editor** with WYSIWYG option
+- ✅ **No coding required** to update content
+- ✅ **Built-in search** across all pages
+- ✅ **Modern UI** similar to Notion
+
+**[→ See Wiki.js Setup Guide](WIKI_MIGRATION_GUIDE.md)**
+
+```bash
+# Quick start
+docker-compose -f docker-compose.wiki.yml up -d
+# Access at http://localhost:3000
+```
+
+### Option 2: Vue.js SPA (Original Static Version)
+
+**Simple single-page application built with Vue.js 3, Vite, and Docker.**
+
+- ✅ **Fast & lightweight** static site
+- ✅ **Modern UI** with responsive design
+- ⚠️ Requires developer to edit content (no multi-user editing)
+- ⚠️ Manual Git commits for updates
+
+```bash
+# Quick start
+docker-compose --profile prod up -d
+# Access at http://localhost
+```
 
 ## Overview
 

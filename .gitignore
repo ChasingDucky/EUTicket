@@ -43,3 +43,15 @@ coverage
 .cache
 .temp
 .tmp
+
+# Wiki.js specific
+.env.wiki
+wiki_content/
+postgres-data/
+wiki-data/
+wiki-repo/
+
+# Python migration script artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
