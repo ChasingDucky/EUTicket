@@ -114,7 +114,7 @@ const countries = [
     name: 'Belgium',
     description: 'Central European hub with connections to France, Netherlands, Germany, and Luxembourg.',
     operator: 'SNCB/NMBS',
-    link: null
+    link: 'belgium'
   },
   {
     code: 'CZ',
